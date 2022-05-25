@@ -1,0 +1,13 @@
+<%@ page pageEncoding="UTF-8" %>
+<header>
+    <nav>
+        <a href="index.jsp"><h1 class="button">Header</h1></a>
+        <a href="create.jsp" class="button">Create</a>
+        <a href="delete.jsp" class="button">Delete</a>
+
+        <form class="search" method="GET" action="searchController">
+            <label for="search">Search:</label>
+            <input id="search" type="search" name="searchRequest" value=""/>
+        </form>
+    </nav>
+</header>

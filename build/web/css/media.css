@@ -1,0 +1,32 @@
+@media screen and (max-aspect-ratio:5/3) and (min-aspect-ratio: 1/1){
+    main {
+        margin: 10px 17%;
+    }
+}
+
+@media screen and (max-aspect-ratio:1/1) {
+    main {
+        margin: 10px 5%;
+    }
+    
+    .item {
+        flex-direction: column;
+    }
+    
+    img {
+        width: 100% !important;
+    }
+    
+    .description {
+        width: 100% !important;
+        padding: 10px 0px 0px 0px !important;
+    }
+    
+    .id {
+        left: 0px !important;
+    }
+    
+    .date {
+        right: 0px !important;
+    }
+}
